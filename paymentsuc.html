@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Payment Successful</title>
+<style>
+  body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #a1c4fd, #c2e9fb); 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+  }
+  .payment-success-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  h2 {
+    color: #32c787; 
+    margin: 0;
+    margin-bottom: 15px;
+  }
+  p {
+    color: #333;
+    margin: 5px 0;
+  }
+  .transaction-id {
+    font-weight: bold;
+    color: #555; 
+  }
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #32c787; 
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+  }
+  .button:hover {
+    background-color: #2da676; 
+  }
+</style>
+</head>
+<body>
+
+
+<div class="payment-success-container">
+  <h2>Payment Successful!</h2>
+  <p>Your payment has been processed successfully.</p>
+  
+  <p>Transaction ID: <span class="transaction-id">TX123456789</span></p>
+  <a href="success2.php" class="button">Go Next</a>
+</div>
+
+</body>
+</html>
