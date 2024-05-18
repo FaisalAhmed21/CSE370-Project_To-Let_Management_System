@@ -15,8 +15,8 @@ The To-Let Management System is a comprehensive web application designed to stre
 ## Technologies Used
 
 - **Frontend:** HTML, CSS, JavaScript
-- **Backend:** [PHP]
-- **Database:** [MySQL[In the downloads file you will find a file call db.sql that would be the database for this project]]
+- **Backend:** PHP
+- **Database:** MySQL[In the downloads file you will find a file call db.sql that would be the database for this project]
 
 
 ## Installation
